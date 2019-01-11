@@ -34,19 +34,38 @@
         <form action="" class="contact-form">
           <div>
             <label for="name">Name:</label>
-            <input id="name" type="text" placeholder="What's your name?" />
+            <input
+              class="text-field"
+              id="name"
+              type="text"
+              placeholder="What's your name?"
+            />
           </div>
           <div>
             <label for="email">Email:</label>
-            <input id="email" type="text" placeholder="What's your email?" />
+            <input
+              class="text-field"
+              id="email"
+              type="email"
+              placeholder="What's your email?"
+            />
           </div>
           <div>
             <label for="info">More info:</label>
             <input
+              class="text-field"
               id="info"
               type="text"
-              placeholder="Anything else we should know"
+              placeholder="Anything else we should know?"
             />
+          </div>
+          <div>
+            <label for="info">Where are you from?</label>
+            <select name="info">
+              <option value="uk">UK</option>
+              <option value="usa">USA</option>
+              <option value="turkmenistan">Turkmenistan</option>
+            </select>
           </div>
           <button type="submit" class="contact-button">Send</button>
         </form>
