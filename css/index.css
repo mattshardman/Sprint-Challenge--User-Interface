@@ -265,7 +265,6 @@ p {
   to { transform: rotate(360deg); }
 }
 
-
 .box:first-child {
     background: teal;
 }
@@ -370,4 +369,56 @@ footer nav a {
   justify-content: space-around;
   padding: 20px 0;
   border-bottom: 1px dashed black;
+}
+
+/* contact-page */
+.contact {
+  padding: 80px 10%;
+}
+
+.contact-form {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.contact-form input {
+  width: 300px;
+  max-width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  transition: border 1s, background 1s;
+}
+
+.contact-form input:hover {
+ background: #eaeaea;
+}
+
+.contact-form input:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
+.contact-button {
+  height: 35px;
+  width: 300px;
+  background: #000;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
