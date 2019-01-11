@@ -294,3 +294,44 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* about page */
+.about-info {
+  padding: 0 20px 20px 20px;
+  border-bottom: 1px dashed black;
+}
+
+.about-lets-work {
+  padding: 0 20px 20px 20px;
+}
+
+.about-tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.about-tiles-container .text-container {
+  width: 48%;
+  padding: 0 1%;
+  margin: 20px 0;
+}
+
+.text-container button {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.about-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-bottom: 1px dashed black;
+}
