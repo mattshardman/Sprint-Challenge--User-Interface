@@ -34,13 +34,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML serves two purposes: 
+
+* First, it makes code cleaner and more readable - this is particularly useful when there are many collaborators on a project, as it allows people who did not write the original code to more easily interpret it 
+
+* Second, it allows the structure of pages to be more easily determined programmatically - for example, a page properly marked up in semantic HTML is easier for search engines "crawler bots" to parse.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    
+* With display inline it is not possible to manipulate the width and height of an element.
+* With ```display: block``` (unlike ```display: inline```) an element will always appear on a new line.
 
 3. What are the 4 areas of the box model?
 
+* Margin
+* Padding 
+* Border
+* Width & height
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git:  
+    * allows many developers to work on the same project at the same time
+    * allows the creation of "branches" allowing developers to work on features without affecting the main product
+    * allows others to review new features and test they are working correcting before merging them with the main product
+    * is a distributed version control system, meaning every developer has their own local repository - this makes git extremely fast and scaleable.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
